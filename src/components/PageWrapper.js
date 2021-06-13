@@ -9,6 +9,7 @@ import BREAKPOINTS from 'styles/breakpoints';
 
 const Main = styled.main`
   position: relative;
+  overflow: hidden;
 
   @media (min-width: ${BREAKPOINTS.medium}) {
     min-height: 100vh;

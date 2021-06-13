@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import ImageTrail from 'components/ImageTrail';
+
 import BREAKPOINTS from 'styles/breakpoints';
 import { Grid, columns } from 'styles/grid';
 
@@ -49,6 +51,7 @@ const Landing = () => {
           consec tetur adipiscing elit ellente esque ut erat metus.
         </H2>
       </Grid>
+      <ImageTrail />
     </Container>
   );
 };
