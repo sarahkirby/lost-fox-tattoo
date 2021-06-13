@@ -1,0 +1,52 @@
+{
+  "name": "lostfoxtattoo",
+  "description": "Lost fox Tattoo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier --write .",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "color-string": "^1.5.5",
+    "lodash.throttle": "^4.1.1",
+    "next": "^10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/eslint-parser": "^7.13.14",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-root-import": "^6.6.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-root-import": "^1.0.4",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "npm run lint:fix",
+      "npm run prettier"
+    ],
+    "src/**/*.json": [
+      "npm run lint:json"
+    ]
+  },
+  "license": "MIT"
+}

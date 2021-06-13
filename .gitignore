@@ -1,0 +1,13 @@
+# production
+/build
+
+# dependencies
+/.next/
+/out/
+/node_modules/
+
+# misc
+.env.local
+.eslintcache
+.DS_Store
+npm-debug.log*
