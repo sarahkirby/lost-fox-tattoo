@@ -1,5 +1,12 @@
+import Landing from 'components/Landing';
+import PageWrapper from 'src/components/PageWrapper';
+
 function LandingPage() {
-  return <h2>Lost Fox Tattoo</h2>;
+  return (
+    <PageWrapper>
+      <Landing />
+    </PageWrapper>
+  );
 }
 
 export default LandingPage;
