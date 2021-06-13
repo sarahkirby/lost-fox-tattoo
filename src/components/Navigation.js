@@ -30,7 +30,7 @@ const Navigation = () => {
       <Link href="/">
         <a>
           <Img
-            src="/images/logo.svg"
+            src="/images/logo.png"
             alt="Lost Fox Tattoo logo - simple illustration of a fox head surrounded by logotype"
           />
         </a>
