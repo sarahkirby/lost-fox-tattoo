@@ -9,7 +9,7 @@ const Container = styled.div`
   }
 
   @media (min-width: ${BREAKPOINTS.medium}) {
-    min-height: 768px;
+    min-height: auto;
   }
 `;
 

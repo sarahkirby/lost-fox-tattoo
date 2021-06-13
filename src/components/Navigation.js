@@ -8,6 +8,7 @@ const Nav = styled.nav`
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 10;
 
   @media (min-width: ${BREAKPOINTS.medium}) {
     left: auto;
@@ -29,7 +30,7 @@ const Navigation = () => {
       <Link href="/">
         <a>
           <Img
-            src="/images/logo.svg"
+            src="/images/logo.png"
             alt="Lost Fox Tattoo logo - simple illustration of a fox head surrounded by logotype"
           />
         </a>
