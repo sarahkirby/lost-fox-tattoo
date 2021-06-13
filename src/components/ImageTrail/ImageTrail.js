@@ -110,7 +110,7 @@ const ImageTrail = () => {
         <Img
           key={index}
           ref={(el) => imagesRef.current.push(el)}
-          src={`images/cursor-trail/${index + 1}.png`}
+          src={`images/image-trail/${index + 1}.png`}
           alt=""
         />
       ))}
