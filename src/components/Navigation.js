@@ -8,6 +8,7 @@ const Nav = styled.nav`
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 10;
 
   @media (min-width: ${BREAKPOINTS.medium}) {
     left: auto;
